@@ -1,0 +1,12 @@
+{
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "prettier.jsxSingleQuote": true,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": true
+}

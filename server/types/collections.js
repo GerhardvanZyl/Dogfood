@@ -1,0 +1,3 @@
+module.exports = {
+    STORIES: 'STORIES'
+}
