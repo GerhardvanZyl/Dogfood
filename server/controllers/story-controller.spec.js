@@ -8,16 +8,16 @@ describe('story-controller', () => {
     let mongoServer;
 
     beforeAll(() => {
-        mongoServer = new MongoMemoryServer({
-            port: 27017,
-            ip: '127.0.0.1',
-        });
+        // mongoServer = new MongoMemoryServer({
+        //     port: 27017,
+        //     ip: '127.0.0.1',
+        // });
 
         router.setupRoutes(server);
     });
 
     afterAll(async (done) => {
-        await mongoServer.stop();
+        //await mongoServer.stop();
     });
 
     describe('get /', () => {
